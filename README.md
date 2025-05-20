@@ -1,5 +1,5 @@
 # steps to remote access using tailscale
-## first install curl on host machine
+## first install curl on both machine
 
 ```bash
 sudo apt install curl
@@ -30,12 +30,16 @@ sudo tailscale up
 tailscale ip -4 
 ```
 
+***installation is done***
 
 ## open terminal on client system and type this
 ```bash
 ssh <username@IP>
 ```
+***username is from host machine what u hav created and ip of the host machine from above `tailscale ip -4 ` output***
+
 *click yes *
+
 *enter the login password of the host server*
 
-***all done***
+***all done u are now in host server***
