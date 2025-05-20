@@ -73,5 +73,6 @@ sftp <username@ip>
 - ***for uploading files to host machine***
   - `put <filename>` to upload the file in host machine from remote machine
   - `mput <filename>` to upload multiple files in host machine from remote machine
+- ***for downloading files from host machine***
   - `get <filename> ` to download the file from the host machine to remote machine
   - `mget <filename> ` to download the multiple files from the host machine to remote machine
