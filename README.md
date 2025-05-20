@@ -40,9 +40,9 @@ ssh <username@IP>
 ```
 ***username is from host machine what u hav created and ip of the host machine from above `tailscale ip -4 ` output***
 
-*click yes *
+* click yes
 
-*enter the login password of the host server*
+* enter the login password of the host server
 
 ***all done u are now in host server***
 
