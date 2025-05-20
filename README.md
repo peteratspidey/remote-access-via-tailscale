@@ -50,4 +50,28 @@ ssh <username@IP>
 
 ***all done u are now in host server***
 
+
+*replace username and ip with ur host machine username and ip*
+
+
 ## P.S. u can also download tailscale android app in ur mobile to check weather servers are online or not
+
+
+# transfer files between host and client server
+## using sftp protocol (secure file transfer protocol)
+```bash
+sftp <username@ip>
+```
+*a prompt shell is opened named as sftp*
+
+## basic commands inside sftp prompt
+- ***for host machine***
+  - `ls` to list out the items in current directory
+  - `pwd` to check present working directory
+  - `cd <directory> ` to change the directory
+  - `exit` to exit sftp session
+- ***for uploading files to host machine***
+  - `put <filename>` to upload the file in host machine from remote machine
+  - `mput <filename>` to upload multiple files in host machine from remote machine
+  - `get <filename> ` to download the file from the host machine to remote machine
+  - `mget <filename> ` to download the multiple files from the host machine to remote machine
