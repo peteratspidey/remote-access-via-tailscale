@@ -21,11 +21,11 @@ sudo tailscale up
 
 * it will ask to visit a link to verify mail
 
-* mail should be same for both remote and server
-
 * right click on the link and select open link
 
 * then login via gmail
+
+* mail should be same for both remote and server
 
 ## 4. check the ip of the tailscale vpn on host server
 ```bash
