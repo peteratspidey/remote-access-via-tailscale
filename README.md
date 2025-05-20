@@ -7,7 +7,7 @@
 sudo apt install curl
 ```
 
-# 2. install tailscales:- copy and paste this link 
+## 2. install tailscales:- copy and paste this link 
 
 ```bash
 curl -fsSL https://tailscale.com/install.sh | sh
