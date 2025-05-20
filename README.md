@@ -1,17 +1,19 @@
 # steps to remote access using tailscale
-## first install curl on both machine
+***note:- step 1,2,3 to be done on both machines host and client***
+
+## 1. install curl on both machine
 
 ```bash
 sudo apt install curl
 ```
 
-# to install tailscales copy and paste this link 
+# 2. install tailscales:- copy and paste this link 
 
 ```bash
 curl -fsSL https://tailscale.com/install.sh | sh
 ```
 
-## start the tailscale 
+## 3. start the tailscale 
 
 ```bash
 sudo tailscale up
