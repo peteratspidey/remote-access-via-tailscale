@@ -17,15 +17,15 @@ curl -fsSL https://tailscale.com/install.sh | sh
 sudo tailscale up
 ```
 
-*it will ask to visit a link to verify mail*
+* it will ask to visit a link to verify mail
 
-*mail should be same for both remote and server*
+* mail should be same for both remote and server
 
-*right click on the link and select open link*
+* right click on the link and select open link
 
-*then login via gmail*
+* then login via gmail
 
-*check the ip of the tailscale vpn on host server machine*
+## check the ip of the tailscale vpn on host server
 ```bash
 tailscale ip -4 
 ```
