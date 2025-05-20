@@ -31,6 +31,10 @@ sudo tailscale up
 ```bash
 tailscale ip -4 
 ```
+## check if tailscale is on 
+```bash
+tailscale status
+```
 
 ***installation is done***
 
