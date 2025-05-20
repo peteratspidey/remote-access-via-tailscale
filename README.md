@@ -1,5 +1,5 @@
 # steps to remote access using tailscale
-## first install curl
+## first install curl on host machine
 
 ```bash
 sudo apt install curl
