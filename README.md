@@ -27,14 +27,14 @@ sudo tailscale up
 
 * then login via gmail
 
-## check the ip of the tailscale vpn on host server
+## 4. check the ip of the tailscale vpn on host server
 ```bash
 tailscale ip -4 
 ```
 
 ***installation is done***
 
-## open terminal on client system and type this
+## 5. open terminal on client system and type this
 ```bash
 ssh <username@IP>
 ```
