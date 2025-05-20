@@ -43,3 +43,5 @@ ssh <username@IP>
 *enter the login password of the host server*
 
 ***all done u are now in host server***
+
+## P.S. u can also download tailscale android app in ur mobile to check weather servers are online or not
