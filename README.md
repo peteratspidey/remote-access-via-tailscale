@@ -76,3 +76,17 @@ sftp <username@ip>
 - ***for downloading files from host machine***
   - `get <filename> ` to download the file from the host machine to remote machine
   - `mget <filename> ` to download the multiple files from the host machine to remote machine
+ 
+## for larger files use rsync
+### for downloading host pc file to client machine
+- `rsync -avz source destination`
+  - `-a` preserves permissions
+  - `-v` verbose mode :- show details
+  - `-z` compress data during transfer
+- example
+  - ` rsync -avz <username@IP>:/home/ubuntu/Downloads/viv.txt ~/Downloads/`
+      
+### for uploading local client files to host pc
+- `rsync -avz destination source`
+- example
+  - `rsync -avz ~/Downloads/viv2.txt <username@IP>:/home/ubuntu/Downloads/ 
