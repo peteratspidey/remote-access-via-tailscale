@@ -89,4 +89,4 @@ sftp <username@ip>
 ### for uploading local client files to host pc
 - `rsync -avz destination source`
 - example
-  - `rsync -avz ~/Downloads/viv2.txt <username@IP>:/home/ubuntu/Downloads/ 
+  - `rsync -avz ~/Downloads/viv2.txt <username@IP>:/home/ubuntu/Downloads/ `
