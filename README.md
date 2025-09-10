@@ -90,3 +90,20 @@ sftp <username@ip>
 - `rsync -avz destination source`
 - example
   - `rsync -avz ~/Downloads/viv2.txt <username@IP>:/home/ubuntu/Downloads/ `
+
+### check the status of the tailscale 
+```bash
+sudo systemctl status tailscaled
+```
+
+### to restart the tailscale 
+```bash
+sudo systemctl restart tailscale
+```
+### to update the certificates and openssl
+```bash
+sudo apt update
+sudo apt install --reinstall ca-certificates
+sudo apt install openssl curl
+```
+
