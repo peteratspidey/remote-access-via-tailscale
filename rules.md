@@ -14,3 +14,7 @@ scp /local/path/file username@IP:/path/to/remote/directory/
 ``` bash
 rsync -avz user@tailscale-ip:/remote/path /local/path
 ```
+* if u want to see the real time progress of the transfer use `--progress` flag
+```bash
+rsync -avz --progress user@tailscale-ip:/remote/path /local/path
+```
