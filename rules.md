@@ -18,3 +18,8 @@ rsync -avz user@tailscale-ip:/remote/path /local/path
 ```bash
 rsync -avz --progress user@tailscale-ip:/remote/path /local/path
 ```
+> note - if u want to include the space in the name of the file or folder name then use quotation marks
+- example 
+```bash
+rsync -avz user@tailscale-ip:"/remote/path/my file is here" /local/path
+```
