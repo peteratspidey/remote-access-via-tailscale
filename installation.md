@@ -23,7 +23,15 @@ sudo systemctl enable ssh
 sudo systemctl status ssh
 ```
 > it should show `active and (running)` 
-
+## check the firewall
+```bash
+sudo ufw status
+```
+## enable the firewall
+```bash
+sudo ufw enable
+```
+## allow ssh into fire
 ## 1. install curl on both machine
 
 ```bash
