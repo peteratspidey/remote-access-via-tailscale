@@ -1,6 +1,29 @@
 # steps to remote access using tailscale
 ***note:- step 1,2,3 to be done on both machines host and client***
 
+## check the ssh installtion 
+```bash
+sudo systemctl status ssh
+```
+> if shows `installed` then proceed else shows `could not be found` then install first
+
+## install ssh 
+```bash
+sudo apt install openssh-server
+```
+## start and enable the ssh
+```bash
+sudo systemctl start ssh
+```
+```bash
+sudo systemctl enable ssh
+```
+## check installation again
+```bash
+sudo systemctl status ssh
+```
+> it should show `active and (running)` 
+
 ## 1. install curl on both machine
 
 ```bash
